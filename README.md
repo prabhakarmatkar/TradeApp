@@ -28,4 +28,4 @@ pip install gunicorn
 gunicorn --reload --thread 50 main:app
 
 
-#### Thank You.
+#### Thank You..
