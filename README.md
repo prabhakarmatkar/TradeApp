@@ -11,6 +11,10 @@ To consume the data at client, socket.io-client is recommended for the use.
 
 Inorder to make the backend server up and running please install the below packages:
 
+pip install -r requirements.txt
+
+##OR
+
 pip install nsetools
 
 pip install nsetools --upgrade

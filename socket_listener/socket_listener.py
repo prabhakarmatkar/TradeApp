@@ -11,7 +11,7 @@ def socket_event_listener(sio,nse_poller):
         nse_poller.update_active_sessions(updated_active_sessions=active_sessions)
 
     def delete_active_session(sid):
-        active_sessions.__delitem__(sid)
+        active_sessions.remove(sid)
         nse_poller.update_active_sessions(updated_active_sessions=active_sessions)
 
     @sio.event
